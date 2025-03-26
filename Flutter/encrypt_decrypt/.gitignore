@@ -1,0 +1,77 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# Miscellaneous
+*.log              # Ignore log files (e.g., crash logs)
+.DS_Store          # Ignore macOS system files
+
+# IntelliJ/Android Studio
+*.iml              # Ignore IntelliJ project files
+.idea/             # Ignore IntelliJ config folder
+
+# Visual Studio Code
+.vscode/           # Ignore VS Code settings
+
+# Flutter/Dart
+.dart_tool/        # Ignore Dart build tools data
+.flutter-plugins   # Ignore plugin metadata
+.packages          # Ignore old Dart package files
+.pub-cache/        # Ignore Pub dependency cache
+.pub/              # Ignore Pub working directory
+build/             # Ignore Flutter build outputs
+
+# Android
+**/android/.gradle # Ignore Gradle cache
+**/android/local.properties  # Ignore local Android config
+
+# iOS
+**/ios/Flutter/App.framework  # Ignore iOS build outputs
+**/ios/Pods/       # Ignore CocoaPods dependencies
+
+# Exceptions (keep these in repo)
+!**/android/app/src/main/AndroidManifest.xml  # Keep Android manifest
+!**/ios/Runner/Info.plist  # Keep iOS app info
