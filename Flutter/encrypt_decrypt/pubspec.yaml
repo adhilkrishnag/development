@@ -1,6 +1,6 @@
 name: encrypt_decrypt
 description: A Flutter application for encrypting and decrypting text using AES with a custom key.
-version: 1.0.0
+version: 1.0.1
 environment:
   sdk: ^3.7.0
 
