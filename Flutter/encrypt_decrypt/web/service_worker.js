@@ -4,7 +4,7 @@ const urlsToCache = [
   "/index.html",
   "/main.dart.js",
   "/flutter.js",
-  "/favicon.png", // Example asset (Make sure it exists)
+  "/favicon.png",
 ];
 
 // Install event
